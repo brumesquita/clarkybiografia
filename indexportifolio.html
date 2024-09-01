@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clarky San Davila</title>
+  <style>
+    body{
+        margin:0;
+    }
+    .container {
+        display: grid;
+    }
+
+    header {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    
+
+    .principal {
+        grid-column-start: 4;
+        grid-column-end: 12;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align:justify;
+
+    }
+
+    header {
+        background-color: #70afb5;
+        
+    }
+
+    ul {
+        list-style-type: none;
+
+        color: #70afb5;
+    }
+
+    a,
+    a:link {
+        text-decoration: none;
+        padding: 8px 16px;
+        border: solid #70afb5 1px;
+    }
+
+    a:hover {
+        background-color: #70afb5;
+        color: white;
+    }
+
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        background-color: #70afb5;
+        color: white;
+        text-align: center;
+    }
+
+    /* media query para dispositivos móveis */
+    @media only screen and (max-width: 767px) {
+        .wrapper {
+           grid-column-start: 1;
+            grid-column-end: 1;
+
+        }
+
+    .principal {
+            grid-column-start: 1;
+grid-column-end: 1;
+            
+        }
+    }
+</style>
+ 
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Meu Yorkshire</h1>
+        <br>
+
+    </header>
+    
+    <header>
+        <div class="center"> <!--posição da imagem-->
+            <img src="./img/clarky.jpg"
+            alt="Esse é o Clarky"width="200";>
+            
+        </div>
+        <h1>Clarky San Davila</h1>   <!--Título principal-->
+        <h2>Cão da raça Yorkshire</h2><!--Segundo título-->
+    </header>
+    <main>
+        <section>
+            <h3>Um Pouco sobre Ele ...</h3>
+            <p>
+                O Clarky é um yorkshire que nasceu no dia 03/10/13 , em breve ele fará 11 anos!
+                Ele é um cãozinho muito especial,carinhoso, ativo e lindo !!
+                Ele possui a pelagem longa e nunca foi tosado antes , é filho único tanto em sua ninhada como em casa !!!!
+            </p>
+        </section>
+    </main>
+</div>
+<footer class="container">
+    <h1>Conhecendo mais sobre um yorkshire muito amado !!</h1>
+</footer>
+</div>
+
+</body>
+
+</html>
